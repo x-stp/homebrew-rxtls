@@ -2,7 +2,7 @@
 cask "rxtls" do
   desc "High-Performance Certificate Transparency Processor"
   homepage "https://github.com/x-stp/rxtls"
-  version "0.2.1"
+  version "0.2.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -12,23 +12,23 @@ cask "rxtls" do
 
   on_macos do
     on_intel do
-      url "https://github.com/x-stp/rxtls/releases/download/v0.2.1/rxtls_0.2.1_macOS_amd64.tar.gz"
-      sha256 "0668798d3752be6c3a7b6af2e6e81a7d0e48f819b0fd384d5ea3a7489dd3e0dd"
+      url "https://github.com/x-stp/rxtls/releases/download/v0.2.2/rxtls_0.2.2_macOS_amd64.tar.gz"
+      sha256 "a84d3f9fc7f0b8cb784a3c643a4b38d6e1edee6e25ef853ce8fae8e5079dcc57"
     end
     on_arm do
-      url "https://github.com/x-stp/rxtls/releases/download/v0.2.1/rxtls_0.2.1_macOS_arm64.tar.gz"
-      sha256 "0ef3303c71d8c4778a8b1920da4e91a92d67f8dcb759f2be140380b25cde58b4"
+      url "https://github.com/x-stp/rxtls/releases/download/v0.2.2/rxtls_0.2.2_macOS_arm64.tar.gz"
+      sha256 "3fe0954089747cc8f2c4fa6e2ffa2dc590f7d166e06e2eb41db6eacb82f6057d"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/x-stp/rxtls/releases/download/v0.2.1/rxtls_0.2.1_linux_amd64.tar.gz"
-      sha256 "3a2f357672552289f4e45c0feeb77534a532fb5f19f0e8e7e290e6869b6c41bb"
+      url "https://github.com/x-stp/rxtls/releases/download/v0.2.2/rxtls_0.2.2_linux_amd64.tar.gz"
+      sha256 "8c3c2c8d63b7b58b1c170dadb1e1fd57ea595a1ba26b35379cae465b59cb6466"
     end
     on_arm do
-      url "https://github.com/x-stp/rxtls/releases/download/v0.2.1/rxtls_0.2.1_linux_arm64.tar.gz"
-      sha256 "8b113a85b2bbbb84f782ceb7c70b20c6cbf1954dede2a0b1eabca880cf799aa9"
+      url "https://github.com/x-stp/rxtls/releases/download/v0.2.2/rxtls_0.2.2_linux_arm64.tar.gz"
+      sha256 "0ce50ca57b327892b4d12fd0d53f5564fb37bf130c49868ec8ace472fe10e369"
     end
   end
 
